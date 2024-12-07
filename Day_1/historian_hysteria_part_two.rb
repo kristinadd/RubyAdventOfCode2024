@@ -24,7 +24,7 @@ class HistorianHysteriaPartTwo
      score +=  number * ( occurrences.include?(number) ? occurrences[number] : 0 )
     end
 
-    puts score
+    puts "The score is: #{score}"
   end
 end
 
