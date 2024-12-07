@@ -15,11 +15,17 @@ class HistorianHysteriaPartOne
       left << elements[0].to_i
       right << elements[1].to_i
     end
-    left.sort
-    right.sort
+    sorter_left = left.sort
+    sorted_right = right.sort
 
+    distance = 0
 
+    sorter_left.each_with_index do |left_element, index|
+      distance += (left_element - sorted_right[index]).abs
+    end
+    puts "Total distance:  #{distance}"
   end
+
 end
 
 HistorianHysteriaPartOne.process
