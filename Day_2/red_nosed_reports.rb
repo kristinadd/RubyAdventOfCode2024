@@ -46,7 +46,7 @@ class RedNosedReports
     reports = RedNosedReports.parse_csv(file_path)
     safe_report = 0
     reports.each do |report|
-      if RedNosedReports.valid?(report) && (RedNosedReports.increasing?(report) || RedNosedReports.decreasing?(report))
+      if valid?(report) && (increasing?(report) || decreasing?(report))
         puts "All safe reports are:  #{safe_report += 1}"
       end
       false
@@ -55,4 +55,3 @@ class RedNosedReports
 end
 
 RedNosedReports.count_safe_report('Day_2/day_2.csv')
-
