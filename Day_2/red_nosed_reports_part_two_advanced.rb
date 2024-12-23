@@ -3,7 +3,7 @@ require 'csv'
 class RedNosedReports
   def self.parse_csv(file_path)
     CSV.read(file_path, headers: false).map do |row|
-      row[0].split.map(&:to_i) # Parse rows into arrays of integers
+      row[0].split.map(&:to_i)
     end
   end
 
