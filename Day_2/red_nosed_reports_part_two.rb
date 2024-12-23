@@ -71,6 +71,8 @@ class RedNosedReports
 end
 
 RedNosedReports.count_safe_report('Day_2/day_2.csv')
+
+
 # report = [16, 19, 21, 24, 24]
 # result = RedNosedReports.safe_with_dampener(report)
 # puts result.inspect
