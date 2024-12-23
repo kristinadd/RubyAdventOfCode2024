@@ -1,6 +1,6 @@
 # --- Day 2: Red-Nosed Reports ---
 
-## Part I
+## --- Part One ---
 
 Fortunately, the first location The Historians want to search isn't a long walk from the Chief Historian's office.
 
@@ -38,7 +38,8 @@ Your puzzle answer was 516.
 
 The first half of this puzzle is complete! It provides one gold star: *
 
---- Part Two ---
+## --- Part Two ---
+
 The engineers are surprised by the low number of safe reports until they realize they forgot to tell you about the Problem Dampener.
 
 The Problem Dampener is a reactor-mounted module that lets the reactor safety systems tolerate a single bad level in what would otherwise be a safe report. It's like the bad level never happened!
