@@ -38,3 +38,10 @@ end
 
 # Usage
 InstructionProcessor.process_file('Day_3/day_3.csv')
+
+
+######################
+# This design is an example of the Factory Pattern, where the class method acts
+# as a factory for creating and using instances in a streamlined way.
+
+
